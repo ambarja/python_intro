@@ -59,10 +59,42 @@ print('Hola mundo')
 print('-----'*12)
 print('2 + 3 es = ', 2+3)
 
+ # Concatenación de strings "+"
+
+a = 'SQL'
+a + ' is cool <3'
+
+# Tres funciones básicas para trabajar con strings
+
+a = 'antony'
+b = 'BARJA'
+print(a)
+
+# Mayusculas 
+a.upper()
+
+# Minusculas
+b.lower()
+
+# Remplazar un string
+
+c = 'hello world'
+print(c)
+c.replace('h', 'H')
+
+#  Para contat cuantas veces se repite un string "count()"
+
+lista = ['Hi', 'Hello', 'Hola', 'Hi', 'Hi']
+len(lista)
+lista.count('Hi')
+
+# Usanfo la función "format" para crear strings 
+'{0} es el mejor lenguage de programación {1}'.format('Python','<3!')
+
 # Especiales secuencias
 
 print("a \tb")
-print("a\nb")
+xprint("a\nb")
 print("a\\b")
 print("a\fb")
 print("a\bb")
@@ -79,18 +111,62 @@ print("Hi my names is 'Antony' and I'm 'data analyst' ")
 type(True)
 print('Do you always lies?\n', True)
 
-# Explorando algunas funciones básicas de python
+10 == 10 
+10 == 11
 
+'antony' == 'antony'
+'antony' == 'Antony'
 
+10 != 10 
+11 != 10
+'Hi' != 'Hello'
 
+# Usando algunos  operadores <, >, <= or >=
 
+10 > 10 
+10 < 11
+10 <= 10
+2 >= 8  
+10 < 8 <= 11
+True < False 
+True <= True > False
+'antony' > 'boruto'
+'ab' < 'bc' 
+'z' > 'a'
+'aa' < 'bb'
 
+# Operadores matemáticos simples 
+
+3 + 3  # Suma
+3 - 3  # Resta
+3 / 3  # División
+3 % 2  # Resto
+5 // 3 # Cociente 
+3 * 3  # Multipicación
+3 ** 2 # Potencia 
+
+num = 3 
+num = num - 1 
+print(num)
+print(num,'\t',type(num))
+
+num = num + 10
+print(num)  
+
+num += 10 
+print(num)
+
+num -= 10
+print(num)
+
+num *= -1
+print(num)
+
+# Orden de operaciones "PEDMAS"
+
+3 + 2 * 5 
+(3 + 2) * 5
+10 + 4 / 2
+(10 + 4 ) / 2
 
 # Referencias: https://realpython.com/python-data-types/
-
-
-
-
-
-
-
